@@ -5,7 +5,6 @@ import java.util.*;
 public class Student extends Person {
     String major;
     List<Course> courseList;
-    Course hello;
     Boolean fulltime;
 
     public Student(String name, String emailAddress, String major, Boolean fulltime) {
