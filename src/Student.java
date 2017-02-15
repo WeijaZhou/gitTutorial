@@ -5,10 +5,8 @@ import java.util.*;
 public class Student extends Person {
     String major;
     List<Course> courseList;
-    Course hello;
-
-    public Student(String name, String emailAddress, String major) {
     Boolean fulltime;
+
     public Student(String name, String emailAddress, String major, Boolean fulltime) {
         super(name, emailAddress);
         this.major = major;
